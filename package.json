@@ -1,0 +1,25 @@
+{
+  "name": "expresslist",
+  "version": "1.0.0",
+  "description": "An application that keep tracks of your task.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evo777/expresslist.git"
+  },
+  "author": "Emmanuel Vo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evo777/expresslist/issues"
+  },
+  "homepage": "https://github.com/evo777/expresslist#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "mongodb": "^2.2.25"
+  }
+}
