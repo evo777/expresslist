@@ -9,7 +9,7 @@ const app = express();
 
 const MongoClient = require('mongodb').MongoClient;
 const ObjectID = require('mongodb').ObjectID;
-const url = 'mongodb://<dbuser>:<dbpassword>@ds143340.mlab.com:43340/todoapp'; //URL to the todoapp database
+const url = 'mongodb://test:test@ds143340.mlab.com:43340/todoapp'; //URL to the todoapp database
 
 // Body Parser Middleware
 app.use(bodyParser.json());
